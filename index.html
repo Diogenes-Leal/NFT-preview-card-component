@@ -4,7 +4,18 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
 
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit&display=swap" rel="stylesheet">
+
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="css/background.css">
+  <link rel="stylesheet" href="css/mainContent.css">
+  <link rel="stylesheet" href="css/groups.css">
+  <link rel="stylesheet" href="css/imagemPrincipal.css">
+  <link rel="stylesheet" href="css/texts.css">
+  <link rel="stylesheet" href="css/smallIcons.css">
+  <link rel="stylesheet" href="css/imagemPerfil.css">
   
   <title>Frontend Mentor | NFT preview card component</title>
 
@@ -14,27 +25,34 @@
     .attribution a { color: hsl(228, 45%, 44%); }
   </style>
 
-  <link rel="stylesheet" href="css/background.css">
 </head>
 <body>
 
   <main>
-    <div>
-      <img src="images/image-equilibrium.jpg" alt="Imagem Equilibrium">
+    <div class="mainCard">
+
+      <div>
+        <!-- <svg class="effectImageHover" width="48" height="48" xmlns="http://www.w3.org/2000/svg"><g fill="none" fill-rule="evenodd"><path d="M0 0h48v48H0z"/><path d="M24 9C14 9 5.46 15.22 2 24c3.46 8.78 12 15 22 15 10.01 0 18.54-6.22 22-15-3.46-8.78-11.99-15-22-15Zm0 25c-5.52 0-10-4.48-10-10s4.48-10 10-10 10 4.48 10 10-4.48 10-10 10Zm0-16c-3.31 0-6 2.69-6 6s2.69 6 6 6 6-2.69 6-6-2.69-6-6-6Z" fill="#FFF" fill-rule="nonzero"/></g></svg> -->
+        <img class="mainImage" src="images/image-equilibrium.jpg" alt="Imagem Equilibrium">
+      </div>
       <h1>Equilibrium #3429</h1>
       <p>Our Equilibrium collection promotes balance and calm.</p>
-    </div>
-  
-    <div>
-      <img src="images/icon-ethereum.svg" alt="Icone ethereum">
-      0.041 ETH
-      <img src="images/icon-clock.svg" alt="Icone relogio">
-      3 days left
-    </div>
-    
-    <div>
-      <img src="images/image-avatar.png" alt="Imagem de perfil do criador">
-      <p>Creation of Jules Wyvern</p>
+
+
+      <div class="infoGroup">
+        <img class="smallIcon" src="images/icon-ethereum.svg" alt="Icone ethereum">
+        <p class="crystalText">0.041 ETH</p>
+      </div>
+
+      <div class="timeGroup">
+        <img class="smallIcon" src="images/icon-clock.svg" alt="Icone relogio">
+        <p class="timeText">3 days left</p>
+      </div>
+      
+      <div class="createdByGroup">
+        <img class="perfilImage" src="images/image-avatar.png" alt="Imagem de perfil do criador">
+        <p class="createdByText">Creation of <b>Jules Wyvern</b></p>
+      </div>
     </div>
   </main>
 

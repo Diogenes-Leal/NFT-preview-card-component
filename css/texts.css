@@ -1,0 +1,49 @@
+h1{
+    color: hsl(0, 0%, 100%);
+    margin: 0 0 20px 26px;
+    font-family: 'Outfit', sans-serif;
+    font-size: 23px;
+    font-weight: 600;
+}
+
+p{
+    color: hsl(215, 51%, 70%);
+    margin: 0 0 10px 26px;
+    font-size: 18px;
+    font-weight: 400;
+    font-family: 'Outfit', sans-serif;
+}
+
+.crystalText{
+    color: hsl(178, 100%, 50%);
+    display: inline-block;
+    margin: 0 0 0 5px;
+    font-size: 15px;
+    font-weight: 300;
+}
+
+.timeText{
+    display: inline-block;
+    margin: 0 0 0 5px;
+    font-size: 15px;
+    font-weight: 300;
+}
+
+.createdByText{
+    display: inline-block;
+    margin: 0 0 0 5px;
+    align-self: center;
+    font-size: 15px;
+    font-weight: 300;
+}
+
+b{
+    color: hsl(0, 0%, 100%);
+    font-weight: 300;
+    font-family: 'Outfit', sans-serif;
+}
+
+h1:hover, b:hover{
+    cursor: pointer;
+    color: hsl(178, 100%, 50%);
+}

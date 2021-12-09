@@ -1,5 +1,7 @@
 main{
-    margin: 0 auto;
+    margin: auto;
     width: 1440px;
+    height: 800px;
+    display: flex;
     background-color: hsl(217, 54%, 11%);
 }

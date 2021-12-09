@@ -1,0 +1,12 @@
+.mainImage {
+    width: 85%;
+    border-radius: 10px;
+    margin: 26px;
+}
+
+.effectImageHover{
+    background-color: hsl(178, 100%, 50%);
+    width: 85%;
+    border-radius: 10px;
+    margin: 26px;
+}
