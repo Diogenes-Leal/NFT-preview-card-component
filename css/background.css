@@ -5,3 +5,15 @@ main{
     display: flex;
     background-color: hsl(217, 54%, 11%);
 }
+
+@media screen and (max-width: 480px){
+    body {
+        background-color: hsl(217, 54%, 11%);
+        width: auto;
+        height: auto;
+    }
+
+    main{
+        width: 100%;
+    }
+}

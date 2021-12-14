@@ -4,9 +4,32 @@
     margin: 26px;
 }
 
-.effectImageHover{
-    background-color: hsl(178, 100%, 50%);
+.divMainImage {
+    position:relative;
+    top:0px;
+    left:0px;
+}
+
+.effectImage{
+    background-color: hsla(178, 100%, 50%, 0.555);
     width: 85%;
+    height: 296px;
     border-radius: 10px;
     margin: 26px;
+    align-content: center;
+    position:absolute;
+    top:0px;
+    left:0px;
+    opacity: 0;
+    display: inline-flex;
+    justify-content: center;
+}
+
+.eyeIcon {
+    align-self: center;
+}
+
+.effectImage:hover {
+    opacity: 100%;
+    cursor: pointer;
 }
